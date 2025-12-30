@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* NAV */
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2a5298;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1abc9c, #3498db);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-img {
+    width: 70%;
+    max-width: 450px;
+    margin: 25px auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: white;
+    color: #3498db;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-light {
+    background: #f4f7fb;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #2a5298;
+}
+
+/* FEATURE */
+.feature-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* IMAGES */
+.section-img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* BLOG */
+.post {
+    background: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* JOURNEY */
+.timeline {
+    max-width: 500px;
+    margin: auto;
+}
+
+.step {
+    background: #e3f2fd;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* LEARNING TAGS */
+.learning-box span {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* ABOUT IMAGE */
+.about-img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.about-text {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 60px 20px;
+}
+
+.toggle-btn {
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: #764ba2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribe-box {
+    display: none;
+    margin-top: 20px;
+}
+
+.subscribe-box input {
+    padding: 12px;
+    width: 240px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: #764ba2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #2a5298;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Success message */
+.success-msg {
+    margin-top: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
